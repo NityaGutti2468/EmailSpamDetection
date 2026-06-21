@@ -52,7 +52,7 @@ This project uses Natural Language Processing (NLP) and Machine Learning techniq
 ## ▶️ How to Run the Project
 
 ### Step 1: Clone Repository
-git clone https://github.com/likhitha-bellamkonda/email_spam_detection.git
+git clone https://github.com/NityaGutti2468/EmailSpamDetection.git
 ### Step 2: Install Requirements
 pip install -r requirements.txt
 ### Step 3: Run streamlit app
@@ -81,4 +81,4 @@ This project is deployed using **Streamlit Cloud**.
 ----------
 ### 👩‍💻 Author
 
-Likhitha Bellamkonda
+Nitya Gutti
