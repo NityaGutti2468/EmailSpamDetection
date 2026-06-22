@@ -68,7 +68,7 @@ Meeting scheduled at 5 PM	          |  Not Spam
 
 Check out the deployed Streamlit app here:
 
-🔗 [Email Spam Detection App](https://emailspamdetection-kckekdpjmddmmiwk8wbq4a.streamlit.app/)
+🔗 [Email Spam Detection App](https://emailspamdetection-8tweedhgll6xevycyfhxy6.streamlit.app/)
 -----
 ## 🚀 Deployment
 
