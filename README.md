@@ -1,23 +1,27 @@
-# 📧 Email Spam Detection
+# 📧 Email Spam Detection  
 
-This project predicts whether an email message is **Spam** or **Not Spam** using Machine Learning and Streamlit.
+[![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python)](https://www.python.org/)  
+[![Streamlit](https://img.shields.io/badge/Streamlit-App-red?logo=streamlit)](https://streamlit.io/)  
+[![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-orange?logo=scikit-learn)](https://scikit-learn.org/stable/)  
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-brightgreen?style=for-the-badge&logo=streamlit)](https://emailspamdetection-8tweedhgll6xevycyfhxy6.streamlit.app/)  
+
+A **Machine Learning + NLP** project to classify emails as **Spam** or **Not Spam**, deployed with **Streamlit Cloud**.  
 
 ---
 
-## 🚀 Project Overview
-Email spam messages are unwanted or fraudulent emails sent in bulk.  
-This project uses Natural Language Processing (NLP) and Machine Learning techniques to classify emails as spam or ham (not spam).
+## 🚀 Project Overview  
+Spam emails are unsolicited, fraudulent, or irrelevant messages sent in bulk.  
+This project leverages **Natural Language Processing (NLP)** and **Machine Learning** to automatically detect and filter spam emails, ensuring a safer and cleaner inbox.  
 
 ---
 
-## 🛠 Technologies Used
-- Python
-- Streamlit
-- Scikit-learn
-- Pandas
-- NumPy
-- TF-IDF Vectorizer
-- Pickle
+## 🛠️ Tech Stack  
+- **Python** 🐍  
+- **Streamlit** 🎨 (for interactive UI)  
+- **Scikit-learn** 🤖 (ML algorithms)  
+- **Pandas & NumPy** 📊 (data handling)  
+- **TF-IDF Vectorizer** ✍️ (text feature extraction)  
+- **Pickle** 📦 (model persistence)  
 
 ---
 
@@ -30,33 +34,37 @@ This project uses Natural Language Processing (NLP) and Machine Learning techniq
 
 ---
 
-## ⚙️ Features
-✅ Predicts Spam or Not Spam  
-✅ Simple Streamlit User Interface  
-✅ Uses TF-IDF text vectorization  
-✅ Fast real-time prediction  
+## ⚙️ Features  
+✅ Real-time spam detection  
+✅ Clean and simple Streamlit interface  
+✅ TF-IDF text vectorization for feature extraction  
+✅ Lightweight and fast predictions  
 
 ---
 
-## 📊 Machine Learning Workflow
+## 📊 Workflow  
 
-1. Data Collection
-2. Text Cleaning
-3. Text Vectorization using TF-IDF
-4. Model Training
-5. Model Saving using Pickle
-6. Streamlit Deployment
+1. **Data Collection**  
+2. **Text Preprocessing** (cleaning, tokenization, stopword removal)  
+3. **Feature Extraction** (TF-IDF vectorization)  
+4. **Model Training** (Naive Bayes, Logistic Regression, etc.)  
+5. **Model Serialization** (Pickle for saving model & vectorizer)  
+6. **Deployment** (Streamlit Cloud)  
 
 ---
 
-## ▶️ How to Run the Project
+## ▶️ Run Locally  
 
-### Step 1: Clone Repository
+
+# Step 1: Clone Repository
 git clone https://github.com/NityaGutti2468/EmailSpamDetection.git
-### Step 2: Install Requirements
+
+# Step 2: Install Dependencies
 pip install -r requirements.txt
-### Step 3: Run streamlit app
+
+# Step 3: Launch Streamlit App
 streamlit run app.py
+
 ---
 ### 🧠 Sample Prediction
 Email Text	                        |  Prediction |
